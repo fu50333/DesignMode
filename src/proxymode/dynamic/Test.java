@@ -3,7 +3,12 @@ package proxymode.dynamic;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
+/**
+ * 
+ * @描述 代理模式---动态代理
+ * @author 傅文城
+ *
+ */
 public class Test {
 	@org.junit.Test
 	public void TestProxy() {
