@@ -1,5 +1,4 @@
-/proxymode/
-/ordinaryfactorymode/
-/factorymode/
 /abstractfactorymode/
+/factorymode/
+/proxymode/
 /singleton/
