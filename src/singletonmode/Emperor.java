@@ -1,4 +1,4 @@
-package singleton;
+package singletonmode;
 
 import java.util.Random;
 import java.util.Vector;
@@ -12,7 +12,7 @@ public class Emperor {
 	private static int maxNumOfEmperor = 2;
 	// 每个皇帝都有名字。使用一个Vector来容纳，每个对象的私有属性  Vector线程安全
 	private static Vector<String> nameList = new Vector<>();
-	// 定义一个列表。容纳所有皇帝的实力
+	// 定义一个列表。容纳所有皇帝的实例
 	private static Vector<Emperor> emperorList = new Vector<>();
 	// 当前皇帝序列号
 	private static int countNumOfEmperor = 0;

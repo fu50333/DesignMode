@@ -1,6 +1,11 @@
-package singleton;
-
-public class Test {
+package singletonmode;
+/**
+ * 
+ * @描述 单例模式扩展
+ * @author 傅文城
+ *
+ */
+public class EmperorTest {
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		int ministerNum = 5;

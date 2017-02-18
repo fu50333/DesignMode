@@ -2,11 +2,12 @@ package factorymode.ordinary;
 
 public class SendFactory {
 	public Sender produce(String type) {
-		if ("mail".equals(type)) {
+		switch (type) {
+		case "mail":
 			return new MailSender();
-		} else if ("sms".equals(type)) {
+		case "sms":
 			return new SmsSender();
-		} else {
+		default:
 			System.out.println("请输入正确的类型");
 			return null;
 		}

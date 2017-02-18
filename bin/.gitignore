@@ -2,3 +2,12 @@
 /factorymode/
 /proxymode/
 /singleton/
+/buildermode/
+/Prototype/
+/rototypemode/
+/prototypemode/
+/singletonmode/
+/adaptermode/
+/decoratormode/
+/facademode/
+/bridgemode/

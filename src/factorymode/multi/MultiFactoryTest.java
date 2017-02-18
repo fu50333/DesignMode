@@ -1,5 +1,7 @@
 package factorymode.multi;
 
+import org.junit.Test;
+
 import factorymode.ordinary.Sender;
 
 /**
@@ -8,8 +10,8 @@ import factorymode.ordinary.Sender;
  * @author 傅文城
  *
  */
-public class Test {
-	@org.junit.Test
+public class MultiFactoryTest {
+	@Test
 	public void test(){
 		SendFactory factory = new SendFactory();
 		Sender sender = factory.projectMail();

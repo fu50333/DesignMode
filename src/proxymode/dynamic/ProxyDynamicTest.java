@@ -3,14 +3,16 @@ package proxymode.dynamic;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+
+import org.junit.Test;
 /**
  * 
  * @描述 代理模式---动态代理
  * @author 傅文城
  *
  */
-public class Test {
-	@org.junit.Test
+public class ProxyDynamicTest {
+	@Test
 	public void TestProxy() {
 		// 创建接口实现类
 		final IDao dao = new Dao();

@@ -1,5 +1,7 @@
 package factorymode.statics;
 
+import org.junit.Test;
+
 import factorymode.ordinary.Sender;
 
 /**
@@ -8,8 +10,8 @@ import factorymode.ordinary.Sender;
  * @author 傅文城
  *
  */
-public class Test {
-	@org.junit.Test
+public class StaticFactoryTest {
+	@Test
 	public void test() {
 		Sender sender = SendFactory.projectMail();
 		sender.Send();
