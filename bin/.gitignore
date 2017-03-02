@@ -11,3 +11,7 @@
 /decoratormode/
 /facademode/
 /bridgemode/
+/compositemode/
+/flyweightmode/
+/strategymode/
+/templatemode/
